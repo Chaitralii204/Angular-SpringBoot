@@ -1,0 +1,23 @@
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">SId</th>
+            <th scope="col">SName</th>
+            <th scope="col">SEmail</th>
+            <th scope="col">SPhone</th>
+            <th scope="col">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let student of students">
+            <th scope="row">{{student.sId}}</th>
+            <td>{{student.sName}}</td>
+            <td>{{student.sEmail}}</td>
+            <td>{{student.sPhone}}</td>
+            <td>
+                <button (click)="UpdateStudent(student.sId)" type="btn btn-info">update</button>
+                <button (click)="DeleteStudent(student.sId)" type="btn btn-info">Delete</button>
+            </td>
+        </tr>
+    </tbody>
+</table>

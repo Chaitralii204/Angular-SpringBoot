@@ -1,0 +1,23 @@
+<div class="container col-md-6">
+    <h1 style="color:red">Update Student</h1>
+    <form action="" class="container" (ngSubmit)="updateStudentData()">
+        <div class="form-group">
+            <label for="exampleInputEmail1" class="form-label">Student ID</label>
+            <input type="text" class="form-control" id="sId" name="sId" [(ngModel)]="student.sId">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1" class="form-label">Student Email address</label>
+            <input type="email" class="form-control" id="sEmail" name="sEmail" [(ngModel)]="student.sEmail">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1" class="form-label">Student Name</label>
+            <input type="text" class="form-control" id="sName" name="sName" [(ngModel)]="student.sName">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1" class="form-label">Student Phone Number</label>
+            <input type="text" class="form-control" id="sPhone" name="sPhone" [(ngModel)]="student.sPhone">
+        </div>
+        <button type="submit" class="btn btn-primary">Update</button>
+
+    </form>
+</div>
