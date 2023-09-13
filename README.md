@@ -25,3 +25,17 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+A Student Management System developed with Spring Boot provides a robust platform for efficiently managing student data. It enables the implementation of essential operations such as add, update delete etc.
+# Update: 
+![pr1](https://github.com/Chaitralii204/Angular-SpringBoot/assets/101623150/30c2e46b-a5f6-4c94-82ae-8ed8c6e18d26)
+
+# Display: 
+![pr3](https://github.com/Chaitralii204/Angular-SpringBoot/assets/101623150/6cf6e2b1-f006-474a-9487-43479c9d6949)
+
+![pr2](https://github.com/Chaitralii204/Angular-SpringBoot/assets/101623150/75747557-2e66-43de-bf39-22c18a8cb81f)
+
+# Add:
+![pr4](https://github.com/Chaitralii204/Angular-SpringBoot/assets/101623150/d6a51223-8720-4b85-9e13-55ef830587b4)
+
+
